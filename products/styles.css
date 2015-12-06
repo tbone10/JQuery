@@ -1,6 +1,8 @@
 
 body {
-    background: url('assets/images/wood.png');
+
+  
+  background: url('assets/images/wood.png');
   /* Full Page Background Receipe */
   background-size: cover;
   background-position: center;
@@ -14,6 +16,20 @@ body {
     text-align: center;
 }
 
+.container1 {
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 950px;
+}
+.clear {
+  clear: both;
+}
+.nav-container {
+  background: #ff3300;
+
+}
+
+
 header {
     margin: 50px 0;
 }
@@ -25,11 +41,12 @@ span {
     color: black;
 }
 
+
 h1 {
-    font-size: 44px;
-    margin-top: 10px;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    color: black;
+    font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  color: black;
+  
 }
 
 a {
@@ -45,4 +62,25 @@ a {
   margin-right: -50%;
   transform: translate(-50%, -50%);
  
+}
+nav ul {
+  text-align:center;
+}
+
+
+nav ul li {
+  display:inline-block;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: #FFF;
+  margin: 16px;
+  padding: 16px;
+  display: block;
+}
+
+nav ul li a:hover {
+  color: #000;
+  transition: color 0.3s ease-in;
 }
